@@ -1,0 +1,64 @@
+header {
+    margin: 0 auto;
+    background-color: #4f83ea17;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+header .contain-img {
+    border: 1px solid #46505d;
+    border-radius: 100%;
+    box-shadow: 0px 5px 15px #ffffffb5;
+}
+
+header ul li {
+    position: relative;
+    font-weight: bold;
+    margin-left: 3em;
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    color: transparent;
+    background: linear-gradient(90deg, #fff, #cbdbfd,#fff,#fff, #fff);
+    background-size: 200%;
+    background-position: left;
+    -webkit-background-clip: text;
+    background-clip: text;
+    opacity: 0.6;
+    transition: all 0.5s ease-in-out;
+}
+
+header ul li:hover {
+    opacity: 1;
+    background-position: right;
+}
+
+header ul li a svg {
+    position: absolute;
+    top: -0.4em;
+    right: -1em;
+    font-size: 1.3em;
+    color: #ffdf10 !important;
+}
+
+header ul svg {
+    cursor: pointer;
+    font-size: 2em;
+    font-weight: 600;
+    margin-left: 1.5em;
+    color: #ffffff !important;
+    letter-spacing: 0.1em;
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    transition: color 0.3s ease, border 0.3s ease;
+    opacity: 0.8;
+}
+
+header ul svg:hover {
+    color: #abc7ff !important;
+    border: 2px solid #abc7ff;
+    border-radius: 100%;
+    opacity: 1;
+}
